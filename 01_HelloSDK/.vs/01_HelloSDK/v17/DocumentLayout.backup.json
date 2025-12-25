@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\mycoding\\Windows-Programming\\01_HelloSDK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7288120-803D-463A-B169-F2DA28D7511B}|01_HelloSDK\\01_HelloSDK.vcxproj|C:\\mycoding\\Windows-Programming\\01_HelloSDK\\01_HelloSDK\\HelloSDK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D7288120-803D-463A-B169-F2DA28D7511B}|01_HelloSDK\\01_HelloSDK.vcxproj|solutionrelative:01_HelloSDK\\HelloSDK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelloSDK.cpp",
+              "DocumentMoniker": "C:\\mycoding\\Windows-Programming\\01_HelloSDK\\01_HelloSDK\\HelloSDK.cpp",
+              "RelativeDocumentMoniker": "01_HelloSDK\\HelloSDK.cpp",
+              "ToolTip": "C:\\mycoding\\Windows-Programming\\01_HelloSDK\\01_HelloSDK\\HelloSDK.cpp",
+              "RelativeToolTip": "01_HelloSDK\\HelloSDK.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-25T13:51:32.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
