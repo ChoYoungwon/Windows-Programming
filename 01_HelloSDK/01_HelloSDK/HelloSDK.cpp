@@ -50,7 +50,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) 
 		MessageBox(hwnd, TEXT("마우스 클릭!"), TEXT("마우스 메시지"), MB_OK);
 		return 0;
 	case WM_PAINT:
-		hdc = BeginPaint(hwnd, &ps);
+		hdc = BeginPaint(hwnd, &ps);				// 윈도우의 클라이언트 영역을 다시 그렸음을 운영체제에게 알림
 		TextOut(hdc, 100, 100, str, lstrlen(str));
 		EndPaint(hwnd, &ps);
 		return 0;
