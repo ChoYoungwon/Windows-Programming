@@ -4,6 +4,7 @@
 #include "pch.h"
 #include "framework.h"
 #include "Console.h"
+#include <afxtempl.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -22,6 +23,18 @@ void CString_LoadString();
 void CPoint_Class();
 void CRect_Class();
 void CSize_Class();
+void CTime_Class();
+void CTimeSpan_Class();
+void non_template_array_1();
+void non_template_array_2();
+void non_template_array_3();
+void template_array_1();
+void non_template_list();
+void non_template_list_2();
+void template_list();
+void non_template_map_1();
+void template_map();
+
 
 int main()
 {
@@ -61,7 +74,41 @@ int main()
             //CRect_Class();
 
             /* CSize 객체 생성과 다루기 */
-            CSize_Class();
+            //CSize_Class();
+
+            /*CTime 객체 생성과 다루기*/
+            //CTime_Class();
+
+            /* CTimeSpan 객체 생성과 다루기 */
+            //CTimeSpan_Class();
+
+            /*3. 집합 클래스*/
+            /* 비템플릿 클래스 배열 생성과 초기화 */
+            //non_template_array_1();
+
+            /* 비템플릿 CString 객체 배열 저장 */
+            //non_template_array_2();
+
+            /* 배열 원소 삽입과 삭제 */
+            //non_template_array_3();
+
+            /*템플릿 배열 클래스 사용하기*/
+            //template_array_1();
+
+            /*리스트 생성, 순회*/
+            //non_template_list();
+
+            /* 리스트 항목 삽입과 삭제 */
+            //non_template_list_2();
+
+            /*템플릿 리스트 클래스 사용하기*/
+            //template_list();
+
+            /*맵 생성과 초기화 및 검색*/
+            //non_template_map_1();
+
+            /*템플릿 맵 클래스 사용하기*/
+            template_map();
         }
     }
     else
@@ -162,4 +209,95 @@ void CSize_Class() {
         _tprintf(_T("크기가 같습니다. \n"));
     else
         _tprintf(_T("크기가 다릅니다. \n"));
+}
+
+/*CTime 객체 생성과 다루기*/
+void CTime_Class() {
+    _tsetlocale(LC_ALL, _T(""));
+    CTime tm;
+    tm = CTime::GetCurrentTime();                               // 현재 시각
+    CString str = tm.Format(_T("%A, %B %d, %Y"));
+    _tprintf(_T("%s\n"), (LPCTSTR)str);
+    str.Format(_T("현재 시각은 %d시 %d분 %d초입니다."), tm.GetHour(), tm.GetMinute(), tm.GetSecond());
+    _tprintf(_T("%s\n"), (LPCTSTR)str);
+}
+
+
+/* CTimeSpan 객체 생성과 다루기 */
+void CTimeSpan_Class() {
+    _tsetlocale(LC_ALL, _T(""));
+    CTime startTime = CTime::GetCurrentTime();
+    Sleep(2000);
+    CTime endTime = CTime::GetCurrentTime();
+    
+    CTimeSpan elapsedTime = endTime - startTime;
+    CString str;
+    str.Format(_T("%d초 지남!"), elapsedTime.GetTotalSeconds());
+    _tprintf(_T("%s\n"), (LPCTSTR)str);
+}
+
+/* 비템플릿 클래스 배열 생성과 초기화 */
+void non_template_array_1() {
+    CUIntArray array;                       // 객체 생성
+    array.SetSize(10);                      // 배열 크기 설정
+    for (int i = 0; i < 10; i++) 
+        array[i] = i * 10;
+    for (int i = 0; i < 10; i++)
+        _tprintf(_T("%d "), array[i]);
+    _tprintf(_T("\n"));
+}
+
+/* 비템플릿 CString 객체 배열 저장 */
+void non_template_array_2() {
+    _tsetlocale(LC_ALL, _T(""));
+    CStringArray array;
+    array.SetSize(5);
+
+    for (int i = 0; i < 5; i++) {
+        CString string;
+        string.Format(_T("%d년이 지났습니다."), (i + 1) * 10);
+        array[i] = string;
+    }
+    for (int i = 0; i < 5; i++)
+        _tprintf(_T("%s\n"), (LPCTSTR)array[i]);
+}
+
+/* 배열 원소 삽입과 삭제 */
+void non_template_array_3() {
+    CUIntArray array;
+    array.SetSize(5);
+    for (int i = 0; i < 5; i++) {
+        array[i] = i;
+    }
+    array.InsertAt(3, 77);
+
+    for (int i = 0; i < array.GetSize(); i++) {
+        _tprintf(_T("%d "), array[i]);
+    }
+    _tprintf(_T("\n"));
+    array.RemoveAt(4);
+    for (int i = 0; i < array.GetSize(); i++) {
+        _tprintf(_T("%d "), array[i]);
+    }
+    _tprintf(_T("\n"));
+}
+
+/*템플릿 배열 클래스 사용하기*/
+struct Point3D {
+    int x, y, z;
+    Point3D() { x = 0; y = 0; z = 0; }
+    Point3D(int x0, int y0, int z0) { x = x0; y = y0; z = z0; }
+};
+
+void template_array_1() {
+    CArray<Point3D, Point3D&> array;
+    array.SetSize(5);
+    for (int i = 0; i < 5; i++) {
+        Point3D pt(i, i * 10, i * 100);
+        array[i] = pt;
+    }
+
+    for (int i = 0; i < 5; i++) {
+        _tprintf(_T("%d, %d, %d\n"), array[i].x, array[i].y, array[i].z);
+    }
 }
