@@ -17,7 +17,7 @@ Hello MFC 창 위에 출력,<br>
 - CTime, CTimeSpan
 #### 환경 구축법(Visual Studio)
 Windows 데스크톱 마법사 -> 콘솔 애플리케이션, MFC 헤더
-### 코드 설명
+#### 코드 설명
 - `CString_Initial();`    &emsp;&emsp;&emsp;&emsp;&emsp; -> CString 객체 생성과 초기화
 - `CString_Format();`     &emsp;&emsp;&emsp;&emsp;&emsp; -> CString::Format() 함수
 - `CString_LoadString()`  &emsp;&emsp;&emsp; -> CString::LoadString() 함수
@@ -35,4 +35,8 @@ Windows 데스크톱 마법사 -> 콘솔 애플리케이션, MFC 헤더
 - `non_template_list_2()`   &emsp;&emsp;&emsp;&emsp;  -> 리스트 항목 삽입과 삭제
 - `template_list()`         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -> 템플릿 리스트 클래스 사용하기
 - `non_template_map_1()`    &emsp;&emsp;&emsp;&emsp;  -> 맵 생성과 초기화 및 검색, 순회, 삭제
-- `template_map()`          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -> 템플릿 맵 클래스 사용하기    
+- `template_map()`          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -> 템플릿 맵 클래스 사용하기
+
+### <span style="background-color:green"> Simple </span>
+- MFC 응용프로그램 마법사를 이용한 MFC 응용 프로그램 생성
+- MFC 응용 프로그램 코드 기본 구조 탐색
