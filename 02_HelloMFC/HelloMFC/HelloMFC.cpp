@@ -20,7 +20,7 @@ protected:
 };
 
 // 응용 프로그램 객체를 선언
-CHelloApp theAp;
+CHelloApp theApp;
 
 // 응용 프로그램 클래스를 정의한다.
 BOOL CHelloApp::InitInstance()
@@ -38,7 +38,7 @@ CMainFrame::CMainFrame()
 
 void CMainFrame::OnPaint()
 {
-	// 생성자 호출시 BeginPaint(), 소멸자 호출시 EndPaint() 호출
+	// 생성자 호출시 BeginPaint(), 소멸자 호출시 EndPaint() 호출-
 	CPaintDC dc(this);
 	const TCHAR* msg = _T("Hello, MFC");
 	dc.TextOut(100, 100, msg, lstrlen(msg));
@@ -47,6 +47,12 @@ void CMainFrame::OnPaint()
 void CMainFrame::OnLButtonDown(UINT nFlags, CPoint point)
 {
 	MessageBox(_T("마우스 클릭!"), _T("마우스 메시지"));
+	TRACE(_T("응용 프로그램 객체 주소 : %p = %p\n"), AfxGetApp(), &theApp);
+	TRACE(_T("메인 윈도우 객체 주소 : %p = %p\n"), AfxGetMainWnd(), theApp.m_pMainWnd);
+	TRACE(_T("응용 프로그램 이름 : %s\n"), AfxGetAppName());
+
+	// 인스턴스 핸들값은 실행 파일이 로드된 가상 메모리 주소
+	TRACE(_T("인스턴스 핸들 : %p\n"), AfxGetInstanceHandle());
 }
 
 // 메시지 맵을 선언한다.

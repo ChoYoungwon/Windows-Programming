@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_HelloMFC", "HelloMFC\Hel
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Console", "Console\Console.vcxproj", "{6CB48357-67DB-46E8-846F-A4548F671C66}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simple", "Simple\Simple.vcxproj", "{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{6CB48357-67DB-46E8-846F-A4548F671C66}.Release|x64.Build.0 = Release|x64
 		{6CB48357-67DB-46E8-846F-A4548F671C66}.Release|x86.ActiveCfg = Release|Win32
 		{6CB48357-67DB-46E8-846F-A4548F671C66}.Release|x86.Build.0 = Release|Win32
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Debug|x64.ActiveCfg = Debug|x64
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Debug|x64.Build.0 = Debug|x64
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Debug|x86.Build.0 = Debug|Win32
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Release|x64.ActiveCfg = Release|x64
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Release|x64.Build.0 = Release|x64
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Release|x86.ActiveCfg = Release|Win32
+		{BEFA7A46-F5DF-2625-EEA8-C728286A6CE0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
