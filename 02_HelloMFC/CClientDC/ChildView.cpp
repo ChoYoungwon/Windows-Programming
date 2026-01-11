@@ -4,7 +4,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "Simple.h"
+#include "CClientDC.h"
 #include "ChildView.h"
 
 #ifdef _DEBUG
@@ -25,6 +25,8 @@ CChildView::~CChildView()
 
 BEGIN_MESSAGE_MAP(CChildView, CWnd)
 	ON_WM_PAINT()
+	ON_WM_LBUTTONDOWN()
+	ON_WM_RBUTTONDOWN()
 END_MESSAGE_MAP()
 
 
@@ -38,9 +40,6 @@ BOOL CChildView::PreCreateWindow(CREATESTRUCT& cs)
 
 	cs.dwExStyle |= WS_EX_CLIENTEDGE;
 	cs.style &= ~WS_BORDER;
-
-	// 사용자가 전달한 정보를 바탕으로 윈도우 클래스를 운영체제에 등록하고,
-	// 내부에서 자동으로 생성한  윈도우 클래스 이름을 문자열 형태로 리턴한다.
 	cs.lpszClass = AfxRegisterWndClass(CS_HREDRAW|CS_VREDRAW|CS_DBLCLKS, 
 		::LoadCursor(nullptr, IDC_ARROW), reinterpret_cast<HBRUSH>(COLOR_WINDOW+1), nullptr);
 
@@ -54,12 +53,22 @@ void CChildView::OnPaint()
 	// TODO: 여기에 메시지 처리기 코드를 추가합니다.
 	
 	// 그리기 메시지에 대해서는 CWnd::OnPaint()를 호출하지 마십시오.
-	dc.TextOutW(50, 50, CString(_T("안녕하세요.")));
-
-	// WM_PAINT메시지가 발생할 때마다 
-	// OnPaint() 함수가 호출되므로 윈도우 크기가 변경되거나 윈도우가 가려지는 상황에서도 
-	// 출력 내용이 지워지지 않고 항상 표시된다.
-	dc.Rectangle(0, 0, 200, 100);
-	dc.Ellipse(200, 100, 500, 200);
 }
 
+// 창을 가렸다가 드러나거나, 크기가 변경되면 
+// 클라이언트 영역에서 그림이 지워지는 걸 확인할 수 있다.
+void CChildView::OnLButtonDown(UINT nFlags, CPoint point)
+{
+	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
+
+	CClientDC dc(this);
+	dc.Rectangle(point.x - 20, point.y - 20, point.x + 20, point.y + 20);
+}
+
+void CChildView::OnRButtonDown(UINT nFlags, CPoint point)
+{
+	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
+	// CWnd::OnRButtonDown(nFlags, point);
+	CClientDC dc(this);
+	dc.Ellipse(point.x - 20, point.y - 20, point.x + 20, point.y + 20);
+}

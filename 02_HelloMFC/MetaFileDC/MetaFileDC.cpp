@@ -1,12 +1,12 @@
 ﻿
-// Simple.cpp: 애플리케이션에 대한 클래스 동작을 정의합니다.
+// MetaFileDC.cpp: 애플리케이션에 대한 클래스 동작을 정의합니다.
 //
 
 #include "pch.h"
 #include "framework.h"
 #include "afxwinappex.h"
 #include "afxdialogex.h"
-#include "Simple.h"
+#include "MetaFileDC.h"
 #include "MainFrm.h"
 
 
@@ -15,34 +15,34 @@
 #endif
 
 
-// CSimpleApp
+// CMetaFileDCApp
 
-BEGIN_MESSAGE_MAP(CSimpleApp, CWinApp)
-	ON_COMMAND(ID_APP_ABOUT, &CSimpleApp::OnAppAbout)
+BEGIN_MESSAGE_MAP(CMetaFileDCApp, CWinApp)
+	ON_COMMAND(ID_APP_ABOUT, &CMetaFileDCApp::OnAppAbout)
 END_MESSAGE_MAP()
 
 
-// CSimpleApp 생성
+// CMetaFileDCApp 생성
 
-CSimpleApp::CSimpleApp() noexcept
+CMetaFileDCApp::CMetaFileDCApp() noexcept
 {
 
 	// TODO: 아래 애플리케이션 ID 문자열을 고유 ID 문자열로 바꾸십시오(권장).
 	// 문자열에 대한 서식: CompanyName.ProductName.SubProduct.VersionInformation
-	SetAppID(_T("Simple.AppID.NoVersion"));
+	SetAppID(_T("MetaFileDC.AppID.NoVersion"));
 
 	// TODO: 여기에 생성 코드를 추가합니다.
 	// InitInstance에 모든 중요한 초기화 작업을 배치합니다.
 }
 
-// 유일한 CSimpleApp 개체입니다.
+// 유일한 CMetaFileDCApp 개체입니다.
 
-CSimpleApp theApp;
+CMetaFileDCApp theApp;
 
 
-// CSimpleApp 초기화
+// CMetaFileDCApp 초기화
 
-BOOL CSimpleApp::InitInstance()
+BOOL CMetaFileDCApp::InitInstance()
 {
 	CWinApp::InitInstance();
 
@@ -74,19 +74,22 @@ BOOL CSimpleApp::InitInstance()
 		nullptr);
 
 
+
+
+
 	// 창 하나만 초기화되었으므로 이를 표시하고 업데이트합니다.
 	pFrame->ShowWindow(SW_SHOW);
 	pFrame->UpdateWindow();
 	return TRUE;
 }
 
-int CSimpleApp::ExitInstance()
+int CMetaFileDCApp::ExitInstance()
 {
 	//TODO: 추가한 추가 리소스를 처리합니다.
 	return CWinApp::ExitInstance();
 }
 
-// CSimpleApp 메시지 처리기
+// CMetaFileDCApp 메시지 처리기
 
 
 // 응용 프로그램 정보에 사용되는 CAboutDlg 대화 상자입니다.
@@ -122,13 +125,13 @@ BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
 END_MESSAGE_MAP()
 
 // 대화 상자를 실행하기 위한 응용 프로그램 명령입니다.
-void CSimpleApp::OnAppAbout()
+void CMetaFileDCApp::OnAppAbout()
 {
 	CAboutDlg aboutDlg;
 	aboutDlg.DoModal();
 }
 
-// CSimpleApp 메시지 처리기
+// CMetaFileDCApp 메시지 처리기
 
 
 
