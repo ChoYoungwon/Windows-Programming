@@ -1,0 +1,19 @@
+#### 코드 설명
+- `CString_Initial();`    &emsp;&emsp;&emsp;&emsp;&emsp; -> CString 객체 생성과 초기화
+- `CString_Format();`     &emsp;&emsp;&emsp;&emsp;&emsp; -> CString::Format() 함수
+- `CString_LoadString()`  &emsp;&emsp;&emsp; -> CString::LoadString() 함수
+- `CPoint_Class()`        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -> CPoint 객체 생성과 다루기
+- `CRect_Class()`   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -> CRect 객체 생성과 다루기(left, top, right, bottom)
+- `CSize_Class()`         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -> CSize 객체 생성과 다루기
+- `CTime_Class()`         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -> CTime 객체 생성과 다루기
+- `CTimeSpan_Class()`     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -> CTimeSpan 객체 생성과 다루기
+- `non_template_array_1()` &emsp;&emsp;&emsp;&emsp; -> 비템플릿 클래스 배열 생성과 초기화
+- `non_template_array_2() ` &emsp;&emsp;&emsp;&emsp; -> 비템플릿 CString 객체 배열 저장
+- `non_template_array_3()`  &emsp;&emsp;&emsp;&emsp; -> 배열 원소 삽입과 삭제
+- `template_array_1()`      &emsp;&emsp;&emsp;&emsp; -> 템플릿 배열 클래스 사용하기
+    - `struct Point3D` : x, y, z를 가지는 구조체
+- `non_template_list()`     &emsp;&emsp;&emsp;&emsp;  -> 리스트 생성, 순회
+- `non_template_list_2()`   &emsp;&emsp;&emsp;&emsp;  -> 리스트 항목 삽입과 삭제
+- `template_list()`         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -> 템플릿 리스트 클래스 사용하기
+- `non_template_map_1()`    &emsp;&emsp;&emsp;&emsp;  -> 맵 생성과 초기화 및 검색, 순회, 삭제
+- `template_map()`          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -> 템플릿 맵 클래스 사용하기
