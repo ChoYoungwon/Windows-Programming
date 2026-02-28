@@ -60,7 +60,7 @@ void CChildView::OnPaint()
 
 	// 메모리 DC를 만든 후 비트맵을 선택해 넣는다.
 	CDC dcmem;
-	dcmem.CreateCompatibleDC(&dc);
+	dcmem.CreateCompatibleDC(&dc);		
 	dcmem.SelectObject(&bitmap);
 
 	// 비트맵을 화면에 출력한다.
