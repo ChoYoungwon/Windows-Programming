@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="InputCharacter.h">
+    <ClInclude Include="01_Simple2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -38,7 +38,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InputCharacter.cpp">
+    <ClCompile Include="01_Simple2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
@@ -52,18 +52,21 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="InputCharacter.rc">
+    <ResourceCompile Include="My01Simple2.rc">
       <Filter>리소스 파일</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\InputCharacter.rc2">
+    <None Include="res\My01Simple2.rc2">
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\InputCharacter.ico">
+    <Image Include="res\01_Simple2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>
