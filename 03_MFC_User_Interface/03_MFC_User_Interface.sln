@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Simple3", "02_Simple3\02
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_ColorSelect", "03_ColorSelect\03_ColorSelect.vcxproj", "{11D118FD-B4AB-F7EC-09B6-B45C5157CC0B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_ShowCursorPos", "04_ShowCursorPos\04_ShowCursorPos.vcxproj", "{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{11D118FD-B4AB-F7EC-09B6-B45C5157CC0B}.Release|x64.Build.0 = Release|x64
 		{11D118FD-B4AB-F7EC-09B6-B45C5157CC0B}.Release|x86.ActiveCfg = Release|Win32
 		{11D118FD-B4AB-F7EC-09B6-B45C5157CC0B}.Release|x86.Build.0 = Release|Win32
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Debug|x64.ActiveCfg = Debug|x64
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Debug|x64.Build.0 = Debug|x64
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Debug|x86.Build.0 = Debug|Win32
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Release|x64.ActiveCfg = Release|x64
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Release|x64.Build.0 = Release|x64
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Release|x86.ActiveCfg = Release|Win32
+		{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{11D118FD-B4AB-F7EC-09B6-B45C5157CC0B}</ProjectGuid>
+    <ProjectGuid>{CDEEFDB7-2FB6-FB53-1931-AD0C8C1FD877}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My03ColorSelect</RootNamespace>
+    <RootNamespace>My04ShowCursorPos</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,7 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="03_ColorSelect.h" />
+    <ClInclude Include="04_ShowCursorPos.h" />
     <ClInclude Include="ChildView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
@@ -192,7 +192,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03_ColorSelect.cpp" />
+    <ClCompile Include="04_ShowCursorPos.cpp" />
     <ClCompile Include="ChildView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
@@ -203,17 +203,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My03ColorSelect.rc" />
+    <ResourceCompile Include="My04ShowCursorPos.rc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
       <SubType>
       </SubType>
     </None>
-    <None Include="res\My03ColorSelect.rc2" />
+    <None Include="res\My04ShowCursorPos.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\03_ColorSelect.ico" />
+    <Image Include="res\04_ShowCursorPos.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="03_ColorSelect.h">
+    <ClInclude Include="04_ShowCursorPos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -38,7 +38,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03_ColorSelect.cpp">
+    <ClCompile Include="04_ShowCursorPos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
@@ -52,18 +52,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My03ColorSelect.rc">
+    <ResourceCompile Include="My04ShowCursorPos.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My03ColorSelect.rc2">
+    <None Include="res\My04ShowCursorPos.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\03_ColorSelect.ico">
+    <Image Include="res\04_ShowCursorPos.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
