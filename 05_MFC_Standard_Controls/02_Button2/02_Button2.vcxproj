@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{36A77D06-FEA3-EFE4-A31A-AAD0A166721C}</ProjectGuid>
+    <ProjectGuid>{2FED532C-ED23-58E0-8801-4798C726F4B5}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My02InputSaveLoad</RootNamespace>
+    <RootNamespace>My02Button2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,9 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="02_InputSaveLoad.h" />
-    <ClInclude Include="02_InputSaveLoadDoc.h" />
-    <ClInclude Include="02_InputSaveLoadView.h" />
+    <ClInclude Include="02_Button2.h" />
+    <ClInclude Include="02_Button2Doc.h" />
+    <ClInclude Include="02_Button2View.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -193,9 +193,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02_InputSaveLoad.cpp" />
-    <ClCompile Include="02_InputSaveLoadDoc.cpp" />
-    <ClCompile Include="02_InputSaveLoadView.cpp" />
+    <ClCompile Include="02_Button2.cpp" />
+    <ClCompile Include="02_Button2Doc.cpp" />
+    <ClCompile Include="02_Button2View.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -205,21 +205,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My02InputSaveLoad.rc" />
+    <ResourceCompile Include="My02Button2.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\02_InputSaveLoad.ico" />
-    <Image Include="res\02_InputSaveLoadDoc.ico" />
+    <None Include="res\My02Button2.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\02_Button2.ico" />
+    <Image Include="res\02_Button2Doc.ico" />
     <Image Include="res\Toolbar.bmp" />
-    <Image Include="res\Toolbar256.bmp" />
-    <Image Include="res\userimages.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md">
-      <SubType>
-      </SubType>
-    </None>
-    <None Include="res\My02InputSaveLoad.rc2" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

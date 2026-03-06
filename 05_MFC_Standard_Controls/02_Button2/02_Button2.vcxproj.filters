@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="02_InputSaveLoad.h">
+    <ClInclude Include="02_Button2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="02_InputSaveLoadDoc.h">
+    <ClInclude Include="02_Button2Doc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="02_InputSaveLoadView.h">
+    <ClInclude Include="02_Button2View.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -41,16 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02_InputSaveLoad.cpp">
+    <ClCompile Include="02_Button2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="02_InputSaveLoadDoc.cpp">
+    <ClCompile Include="02_Button2Doc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="02_InputSaveLoadView.cpp">
+    <ClCompile Include="02_Button2View.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -58,31 +58,24 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My02InputSaveLoad.rc">
+    <ResourceCompile Include="My02Button2.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\userimages.bmp">
+    <None Include="res\My02Button2.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\02_Button2Doc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\02_InputSaveLoadDoc.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\02_InputSaveLoad.ico">
+    <Image Include="res\02_Button2.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\Toolbar256.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\My02InputSaveLoad.rc2">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="README.md" />
   </ItemGroup>
 </Project>
