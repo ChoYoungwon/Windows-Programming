@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="04_EditCtrl.h">
+    <ClInclude Include="05_ListBox.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_EditCtrlDoc.h">
+    <ClInclude Include="05_ListBoxDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_EditCtrlView.h">
+    <ClInclude Include="05_ListBoxView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -41,16 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_EditCtrl.cpp">
+    <ClCompile Include="05_ListBox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_EditCtrlDoc.cpp">
+    <ClCompile Include="05_ListBoxDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_EditCtrlView.cpp">
+    <ClCompile Include="05_ListBoxView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -58,21 +58,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My04EditCtrl.rc">
+    <ResourceCompile Include="My05ListBox.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My04EditCtrl.rc2">
+    <None Include="res\My05ListBox.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\04_EditCtrlDoc.ico">
+    <Image Include="res\05_ListBoxDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\04_EditCtrl.ico">
+    <Image Include="res\05_ListBox.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">

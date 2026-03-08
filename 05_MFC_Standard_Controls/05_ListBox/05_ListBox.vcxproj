@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{6787FC4F-6A66-1428-E631-5F36B7389E98}</ProjectGuid>
+    <ProjectGuid>{A82E67ED-80EE-53D9-54FB-4AF642F06C67}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My04EditCtrl</RootNamespace>
+    <RootNamespace>My05ListBox</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,9 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="04_EditCtrl.h" />
-    <ClInclude Include="04_EditCtrlDoc.h" />
-    <ClInclude Include="04_EditCtrlView.h" />
+    <ClInclude Include="05_ListBox.h" />
+    <ClInclude Include="05_ListBoxDoc.h" />
+    <ClInclude Include="05_ListBoxView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -193,9 +193,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_EditCtrl.cpp" />
-    <ClCompile Include="04_EditCtrlDoc.cpp" />
-    <ClCompile Include="04_EditCtrlView.cpp" />
+    <ClCompile Include="05_ListBox.cpp" />
+    <ClCompile Include="05_ListBoxDoc.cpp" />
+    <ClCompile Include="05_ListBoxView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -205,18 +205,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My04EditCtrl.rc" />
+    <ResourceCompile Include="My05ListBox.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md">
-      <SubType>
-      </SubType>
-    </None>
-    <None Include="res\My04EditCtrl.rc2" />
+    <None Include="res\My05ListBox.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\04_EditCtrl.ico" />
-    <Image Include="res\04_EditCtrlDoc.ico" />
+    <Image Include="res\05_ListBox.ico" />
+    <Image Include="res\05_ListBoxDoc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
