@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_EditCtrl", "04_EditCtrl\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_ListBox", "05_ListBox\05_ListBox.vcxproj", "{A82E67ED-80EE-53D9-54FB-4AF642F06C67}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_ScrollBar", "06_ScrollBar\06_ScrollBar.vcxproj", "{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{A82E67ED-80EE-53D9-54FB-4AF642F06C67}.Release|x64.Build.0 = Release|x64
 		{A82E67ED-80EE-53D9-54FB-4AF642F06C67}.Release|x86.ActiveCfg = Release|Win32
 		{A82E67ED-80EE-53D9-54FB-4AF642F06C67}.Release|x86.Build.0 = Release|Win32
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Debug|x64.ActiveCfg = Debug|x64
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Debug|x64.Build.0 = Debug|x64
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Debug|x86.Build.0 = Debug|Win32
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Release|x64.ActiveCfg = Release|x64
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Release|x64.Build.0 = Release|x64
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Release|x86.ActiveCfg = Release|Win32
+		{BB0C25B7-C67B-2142-3E26-40CFFBFB448E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

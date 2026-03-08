@@ -29,6 +29,7 @@ BEGIN_MESSAGE_MAP(CMy05ListBoxView, CFormView)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &CFormView::OnFilePrintPreview)
 	ON_BN_CLICKED(IDC_RIGHT, &CMy05ListBoxView::OnBnClickedRight)
 	ON_BN_CLICKED(IDC_LEFT, &CMy05ListBoxView::OnBnClickedLeft)
+	ON_WM_HSCROLL()
 END_MESSAGE_MAP()
 
 // CMy05ListBoxView construction/destruction
@@ -145,4 +146,9 @@ void CMy05ListBoxView::OnBnClickedLeft()
 		m_list1.AddString(str);
 		AfxGetMainWnd()->SetWindowText(_T("오른쪽에서 왼쪽으로..."));
 	}
+}
+
+void CMy05ListBoxView::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar)
+{
+	CFormView::OnHScroll(nSBCode, nPos, pScrollBar);
 }

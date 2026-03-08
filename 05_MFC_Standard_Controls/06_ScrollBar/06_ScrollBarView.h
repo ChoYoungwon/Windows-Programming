@@ -1,24 +1,24 @@
 
-// 05_ListBoxView.h : interface of the CMy05ListBoxView class
+// 06_ScrollBarView.h : interface of the CMy06ScrollBarView class
 //
 
 #pragma once
 
 
-class CMy05ListBoxView : public CFormView
+class CMy06ScrollBarView : public CFormView
 {
 protected: // create from serialization only
-	CMy05ListBoxView() noexcept;
-	DECLARE_DYNCREATE(CMy05ListBoxView)
+	CMy06ScrollBarView() noexcept;
+	DECLARE_DYNCREATE(CMy06ScrollBarView)
 
 public:
 #ifdef AFX_DESIGN_TIME
-	enum{ IDD = IDD_MY05_LISTBOX_FORM };
+	enum{ IDD = IDD_MY06_SCROLLBAR_FORM };
 #endif
 
 // Attributes
 public:
-	CMy05ListBoxDoc* GetDocument() const;
+	CMy06ScrollBarDoc* GetDocument() const;
 
 // Operations
 public:
@@ -36,7 +36,7 @@ protected:
 
 // Implementation
 public:
-	virtual ~CMy05ListBoxView();
+	virtual ~CMy06ScrollBarView();
 #ifdef _DEBUG
 	virtual void AssertValid() const;
 	virtual void Dump(CDumpContext& dc) const;
@@ -48,17 +48,18 @@ protected:
 protected:
 	DECLARE_MESSAGE_MAP()
 public:
-	CListBox m_list1;
-	CListBox m_list2;
-	CButton m_right;
-	CButton m_left;
-	afx_msg void OnBnClickedRight();
-	afx_msg void OnBnClickedLeft();
+	afx_msg void OnNMThemeChangedScrollbar1(NMHDR* pNMHDR, LRESULT* pResult);
+	afx_msg void OnNMThemeChangedScrollbar2(NMHDR* pNMHDR, LRESULT* pResult);
+	CStatic m_status;
+	CScrollBar m_hsb;
+	CScrollBar m_vsb;
 	afx_msg void OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar);
+	afx_msg void OnVScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar);
+	virtual void OnDraw(CDC* /*pDC*/);
 };
 
-#ifndef _DEBUG  // debug version in 05_ListBoxView.cpp
-inline CMy05ListBoxDoc* CMy05ListBoxView::GetDocument() const
-   { return reinterpret_cast<CMy05ListBoxDoc*>(m_pDocument); }
+#ifndef _DEBUG  // debug version in 06_ScrollBarView.cpp
+inline CMy06ScrollBarDoc* CMy06ScrollBarView::GetDocument() const
+   { return reinterpret_cast<CMy06ScrollBarDoc*>(m_pDocument); }
 #endif
 
