@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="02_Button2.h">
+    <ClInclude Include="03_Static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="02_Button2Doc.h">
+    <ClInclude Include="03_StaticDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="02_Button2View.h">
+    <ClInclude Include="03_StaticView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -41,16 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02_Button2.cpp">
+    <ClCompile Include="03_Static.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="02_Button2Doc.cpp">
+    <ClCompile Include="03_StaticDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="02_Button2View.cpp">
+    <ClCompile Include="03_StaticView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -58,21 +58,21 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My02Button2.rc">
+    <ResourceCompile Include="My03Static.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My02Button2.rc2">
+    <None Include="res\My03Static.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\02_Button2Doc.ico">
+    <Image Include="res\03_StaticDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\02_Button2.ico">
+    <Image Include="res\03_Static.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
