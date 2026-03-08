@@ -1,4 +1,4 @@
-﻿[실행 이미지](../images/listbox.png)
+﻿[실행 이미지](../../images/listbox.png)
 
 ### 코드 목적
 리스트 박스 컨트롤 활용하기
