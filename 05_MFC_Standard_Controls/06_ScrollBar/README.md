@@ -1,4 +1,4 @@
-﻿[실행 결과](../../images/scrollbar.png)
+﻿![실행 결과](../../images/scrollbar.png)
 
 ### 코드 목적
 스크롤바 컨트롤 활용하기
