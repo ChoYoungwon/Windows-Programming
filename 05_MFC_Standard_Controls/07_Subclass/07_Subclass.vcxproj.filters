@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="06_ScrollBar.h">
+    <ClInclude Include="07_Subclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="06_ScrollBarDoc.h">
+    <ClInclude Include="07_SubclassDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="06_ScrollBarView.h">
+    <ClInclude Include="07_SubclassView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -39,40 +39,46 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CMyEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="06_ScrollBar.cpp">
+    <ClCompile Include="07_Subclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="06_ScrollBarDoc.cpp">
+    <ClCompile Include="07_SubclassDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="06_ScrollBarView.cpp">
+    <ClCompile Include="07_SubclassView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CMyEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My06ScrollBar.rc">
+    <ResourceCompile Include="My07Subclass.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My06ScrollBar.rc2">
+    <None Include="res\My07Subclass.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\06_ScrollBarDoc.ico">
+    <Image Include="res\07_SubclassDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\06_ScrollBar.ico">
+    <Image Include="res\07_Subclass.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
