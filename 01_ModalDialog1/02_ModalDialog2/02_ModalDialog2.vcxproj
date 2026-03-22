@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{DD991DEF-69DA-3D4C-77EC-327A7E1A318C}</ProjectGuid>
+    <ProjectGuid>{B7A2EC4A-9EB9-18B8-A12B-75EBF3CC4249}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My08Reflection</RootNamespace>
+    <RootNamespace>My02ModalDialog2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,10 +183,10 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="08_Reflection.h" />
-    <ClInclude Include="08_ReflectionDoc.h" />
-    <ClInclude Include="08_ReflectionView.h" />
-    <ClInclude Include="CMyListBox.h" />
+    <ClInclude Include="02_ModalDialog2.h" />
+    <ClInclude Include="02_ModalDialog2Doc.h" />
+    <ClInclude Include="02_ModalDialog2View.h" />
+    <ClInclude Include="CMyDialog.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -194,10 +194,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08_Reflection.cpp" />
-    <ClCompile Include="08_ReflectionDoc.cpp" />
-    <ClCompile Include="08_ReflectionView.cpp" />
-    <ClCompile Include="CMyListBox.cpp" />
+    <ClCompile Include="02_ModalDialog2.cpp" />
+    <ClCompile Include="02_ModalDialog2Doc.cpp" />
+    <ClCompile Include="02_ModalDialog2View.cpp" />
+    <ClCompile Include="CMyDialog.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -207,18 +207,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My08Reflection.rc" />
+    <ResourceCompile Include="My02ModalDialog2.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md">
-      <SubType>
-      </SubType>
-    </None>
-    <None Include="res\My08Reflection.rc2" />
+    <None Include="res\My02ModalDialog2.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\08_Reflection.ico" />
-    <Image Include="res\08_ReflectionDoc.ico" />
+    <Image Include="res\02_ModalDialog2.ico" />
+    <Image Include="res\02_ModalDialog2Doc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

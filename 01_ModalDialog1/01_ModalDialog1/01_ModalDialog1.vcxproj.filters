@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="08_Reflection.h">
+    <ClInclude Include="01_ModalDialog1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="08_ReflectionDoc.h">
+    <ClInclude Include="01_ModalDialog1Doc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="08_ReflectionView.h">
+    <ClInclude Include="01_ModalDialog1View.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -39,46 +39,40 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CMyListBox.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08_Reflection.cpp">
+    <ClCompile Include="01_ModalDialog1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="08_ReflectionDoc.cpp">
+    <ClCompile Include="01_ModalDialog1Doc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="08_ReflectionView.cpp">
+    <ClCompile Include="01_ModalDialog1View.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CMyListBox.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My08Reflection.rc">
+    <ResourceCompile Include="My01ModalDialog1.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My08Reflection.rc2">
+    <None Include="res\My01ModalDialog1.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\08_ReflectionDoc.ico">
+    <Image Include="res\01_ModalDialog1Doc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\08_Reflection.ico">
+    <Image Include="res\01_ModalDialog1.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
