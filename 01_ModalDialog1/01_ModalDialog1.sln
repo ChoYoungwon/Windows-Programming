@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_ModalDialog1", "01_Modal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_ModalDialog2", "02_ModalDialog2\02_ModalDialog2.vcxproj", "{B7A2EC4A-9EB9-18B8-A12B-75EBF3CC4249}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_ModalDialog3", "03_ModalDialog3\03_ModalDialog3.vcxproj", "{219901FF-2D50-2989-B467-8BF40236FC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{B7A2EC4A-9EB9-18B8-A12B-75EBF3CC4249}.Release|x64.Build.0 = Release|x64
 		{B7A2EC4A-9EB9-18B8-A12B-75EBF3CC4249}.Release|x86.ActiveCfg = Release|Win32
 		{B7A2EC4A-9EB9-18B8-A12B-75EBF3CC4249}.Release|x86.Build.0 = Release|Win32
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Debug|x64.ActiveCfg = Debug|x64
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Debug|x64.Build.0 = Debug|x64
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Debug|x86.ActiveCfg = Debug|Win32
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Debug|x86.Build.0 = Debug|Win32
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Release|x64.ActiveCfg = Release|x64
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Release|x64.Build.0 = Release|x64
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Release|x86.ActiveCfg = Release|Win32
+		{219901FF-2D50-2989-B467-8BF40236FC9F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

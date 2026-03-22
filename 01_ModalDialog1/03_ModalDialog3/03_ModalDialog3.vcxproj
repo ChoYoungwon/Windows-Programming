@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{B7A2EC4A-9EB9-18B8-A12B-75EBF3CC4249}</ProjectGuid>
+    <ProjectGuid>{219901FF-2D50-2989-B467-8BF40236FC9F}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My02ModalDialog2</RootNamespace>
+    <RootNamespace>My03ModalDialog3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,9 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="02_ModalDialog2.h" />
-    <ClInclude Include="02_ModalDialog2Doc.h" />
-    <ClInclude Include="02_ModalDialog2View.h" />
+    <ClInclude Include="03_ModalDialog3.h" />
+    <ClInclude Include="03_ModalDialog3Doc.h" />
+    <ClInclude Include="03_ModalDialog3View.h" />
     <ClInclude Include="CMyDialog.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
@@ -194,9 +194,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02_ModalDialog2.cpp" />
-    <ClCompile Include="02_ModalDialog2Doc.cpp" />
-    <ClCompile Include="02_ModalDialog2View.cpp" />
+    <ClCompile Include="03_ModalDialog3.cpp" />
+    <ClCompile Include="03_ModalDialog3Doc.cpp" />
+    <ClCompile Include="03_ModalDialog3View.cpp" />
     <ClCompile Include="CMyDialog.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
@@ -207,18 +207,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My02ModalDialog2.rc" />
+    <ResourceCompile Include="My03ModalDialog3.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md">
-      <SubType>
-      </SubType>
-    </None>
-    <None Include="res\My02ModalDialog2.rc2" />
+    <None Include="res\My03ModalDialog3.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\02_ModalDialog2.ico" />
-    <Image Include="res\02_ModalDialog2Doc.ico" />
+    <Image Include="res\03_ModalDialog3.ico" />
+    <Image Include="res\03_ModalDialog3Doc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
