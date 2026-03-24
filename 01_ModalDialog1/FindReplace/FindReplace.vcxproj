@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{14375D14-1CD3-228A-CC0F-BE399A63D13E}</ProjectGuid>
+    <ProjectGuid>{FD3D3EB6-68CF-153F-060F-2ABB2E8EB4EB}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>DialogBase</RootNamespace>
+    <RootNamespace>FindReplace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,16 +183,20 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DialogBase.h" />
-    <ClInclude Include="DialogBaseDlg.h" />
+    <ClInclude Include="FindReplace.h" />
+    <ClInclude Include="FindReplaceDoc.h" />
+    <ClInclude Include="FindReplaceView.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DialogBase.cpp" />
-    <ClCompile Include="DialogBaseDlg.cpp" />
+    <ClCompile Include="FindReplace.cpp" />
+    <ClCompile Include="FindReplaceDoc.cpp" />
+    <ClCompile Include="FindReplaceView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -201,17 +205,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="DialogBase.rc" />
+    <ResourceCompile Include="FindReplace.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md">
-      <SubType>
-      </SubType>
-    </None>
-    <None Include="res\DialogBase.rc2" />
+    <None Include="res\FindReplace.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\DialogBase.ico" />
+    <Image Include="res\FindReplace.ico" />
+    <Image Include="res\FindReplaceDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
