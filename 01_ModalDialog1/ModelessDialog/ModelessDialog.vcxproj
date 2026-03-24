@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{219901FF-2D50-2989-B467-8BF40236FC9F}</ProjectGuid>
+    <ProjectGuid>{84DABB15-5289-2E68-6120-A9780ADEC32C}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My03ModalDialog3</RootNamespace>
+    <RootNamespace>ModelessDialog</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,22 +183,22 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="03_ModalDialog3.h" />
-    <ClInclude Include="03_ModalDialog3Doc.h" />
-    <ClInclude Include="03_ModalDialog3View.h" />
     <ClInclude Include="CMyDialog.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="ModelessDialog.h" />
+    <ClInclude Include="ModelessDialogDoc.h" />
+    <ClInclude Include="ModelessDialogView.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03_ModalDialog3.cpp" />
-    <ClCompile Include="03_ModalDialog3Doc.cpp" />
-    <ClCompile Include="03_ModalDialog3View.cpp" />
     <ClCompile Include="CMyDialog.cpp" />
     <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="ModelessDialog.cpp" />
+    <ClCompile Include="ModelessDialogDoc.cpp" />
+    <ClCompile Include="ModelessDialogView.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -207,18 +207,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My03ModalDialog3.rc" />
+    <ResourceCompile Include="ModelessDialog.rc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
       <SubType>
       </SubType>
     </None>
-    <None Include="res\My03ModalDialog3.rc2" />
+    <None Include="res\ModelessDialog.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\03_ModalDialog3.ico" />
-    <Image Include="res\03_ModalDialog3Doc.ico" />
+    <Image Include="res\ModelessDialog.ico" />
+    <Image Include="res\ModelessDialogDoc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
