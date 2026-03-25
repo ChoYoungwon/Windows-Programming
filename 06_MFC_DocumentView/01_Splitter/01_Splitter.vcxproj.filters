@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FindReplace.h">
+    <ClInclude Include="01_Splitter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FindReplaceDoc.h">
+    <ClInclude Include="01_SplitterDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FindReplaceView.h">
+    <ClInclude Include="01_SplitterView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -39,40 +39,46 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CKeyInputView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FindReplace.cpp">
+    <ClCompile Include="01_Splitter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FindReplaceDoc.cpp">
+    <ClCompile Include="01_SplitterDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FindReplaceView.cpp">
+    <ClCompile Include="01_SplitterView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CKeyInputView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="FindReplace.rc">
+    <None Include="01_Splitter.reg" />
+    <None Include="res\My01Splitter.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My01Splitter.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\FindReplace.rc2">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="REDME.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\FindReplaceDoc.ico">
+    <Image Include="res\01_SplitterDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\FindReplace.ico">
+    <Image Include="res\01_Splitter.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">

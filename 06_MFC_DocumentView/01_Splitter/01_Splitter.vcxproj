@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{FD3D3EB6-68CF-153F-060F-2ABB2E8EB4EB}</ProjectGuid>
+    <ProjectGuid>{DAA1C154-D6AA-3311-9C45-7FF8FDC92787}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>FindReplace</RootNamespace>
+    <RootNamespace>My01Splitter</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,9 +183,10 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="FindReplace.h" />
-    <ClInclude Include="FindReplaceDoc.h" />
-    <ClInclude Include="FindReplaceView.h" />
+    <ClInclude Include="01_Splitter.h" />
+    <ClInclude Include="01_SplitterDoc.h" />
+    <ClInclude Include="01_SplitterView.h" />
+    <ClInclude Include="CKeyInputView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -193,9 +194,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FindReplace.cpp" />
-    <ClCompile Include="FindReplaceDoc.cpp" />
-    <ClCompile Include="FindReplaceView.cpp" />
+    <ClCompile Include="01_Splitter.cpp" />
+    <ClCompile Include="01_SplitterDoc.cpp" />
+    <ClCompile Include="01_SplitterView.cpp" />
+    <ClCompile Include="CKeyInputView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -205,18 +207,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="FindReplace.rc" />
+    <None Include="01_Splitter.reg" />
+    <None Include="res\My01Splitter.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="REDME.md">
-      <SubType>
-      </SubType>
-    </None>
-    <None Include="res\FindReplace.rc2" />
+    <ResourceCompile Include="My01Splitter.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\FindReplace.ico" />
-    <Image Include="res\FindReplaceDoc.ico" />
+    <Image Include="res\01_Splitter.ico" />
+    <Image Include="res\01_SplitterDoc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
