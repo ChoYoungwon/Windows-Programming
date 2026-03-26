@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01_Splitter.h">
+    <ClInclude Include="02_MDITest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,13 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="01_SplitterDoc.h">
+    <ClInclude Include="ChildFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="01_SplitterView.h">
+    <ClInclude Include="02_MDITestDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="02_MDITestView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -39,50 +42,61 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CKeyInputView.h">
+    <ClInclude Include="CCircleDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircleView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_Splitter.cpp">
+    <ClCompile Include="02_MDITest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01_SplitterDoc.cpp">
+    <ClCompile Include="ChildFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01_SplitterView.cpp">
+    <ClCompile Include="02_MDITestDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="02_MDITestView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CKeyInputView.cpp">
+    <ClCompile Include="CCircleDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircleView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="01_Splitter.reg" />
-    <None Include="res\My01Splitter.rc2">
+    <None Include="02_MDITest.reg" />
+    <None Include="res\My02MDITest.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My01Splitter.rc">
+    <ResourceCompile Include="My02MDITest.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\01_SplitterDoc.ico">
+    <Image Include="res\02_MDITestDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\01_Splitter.ico">
+    <Image Include="res\02_MDITest.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
