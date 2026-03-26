@@ -1,4 +1,4 @@
-﻿!(실행화면)[../../images/Splitter.png]
+﻿![실행화면](../../images/Splitter.png)
 
 ### 코드 목적
 정적 분할 윈도우 구현하기
