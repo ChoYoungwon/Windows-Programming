@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{411F3EAA-79CB-DDC8-0D70-5B85BACE3B46}</ProjectGuid>
+    <ProjectGuid>{E2FD4622-6129-406E-4621-94F769F2CA56}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My02MDITest</RootNamespace>
+    <RootNamespace>My03SpinButton</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,12 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="02_MDITest.h" />
-    <ClInclude Include="02_MDITestDoc.h" />
-    <ClInclude Include="02_MDITestView.h" />
-    <ClInclude Include="CCircleDoc.h" />
-    <ClInclude Include="CCircleView.h" />
-    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="03_SpinButton.h" />
+    <ClInclude Include="03_SpinButtonDoc.h" />
+    <ClInclude Include="03_SpinButtonView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -196,12 +193,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02_MDITest.cpp" />
-    <ClCompile Include="02_MDITestDoc.cpp" />
-    <ClCompile Include="02_MDITestView.cpp" />
-    <ClCompile Include="CCircleDoc.cpp" />
-    <ClCompile Include="CCircleView.cpp" />
-    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="03_SpinButton.cpp" />
+    <ClCompile Include="03_SpinButtonDoc.cpp" />
+    <ClCompile Include="03_SpinButtonView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -211,20 +205,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="02_MDITest.reg" />
+    <ResourceCompile Include="My03SpinButton.rc" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="README.md">
       <SubType>
       </SubType>
     </None>
-    <None Include="res\My02MDITest.rc2" />
+    <None Include="res\My03SpinButton.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My02MDITest.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\02_MDITest.ico" />
-    <Image Include="res\02_MDITestDoc.ico" />
-    <Image Include="res\icon1.ico" />
+    <Image Include="res\03_SpinButton.ico" />
+    <Image Include="res\03_SpinButtonDoc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

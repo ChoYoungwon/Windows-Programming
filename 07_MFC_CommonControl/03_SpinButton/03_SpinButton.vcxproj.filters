@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01_ImageList.h">
+    <ClInclude Include="03_SpinButton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="01_ImageListDoc.h">
+    <ClInclude Include="03_SpinButtonDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="01_ImageListView.h">
+    <ClInclude Include="03_SpinButtonView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -41,16 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_ImageList.cpp">
+    <ClCompile Include="03_SpinButton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01_ImageListDoc.cpp">
+    <ClCompile Include="03_SpinButtonDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01_ImageListView.cpp">
+    <ClCompile Include="03_SpinButtonView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -58,27 +58,24 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My01ImageList.rc">
+    <ResourceCompile Include="My03SpinButton.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My01ImageList.rc2">
+    <None Include="res\My03SpinButton.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\01_ImageListDoc.ico">
+    <Image Include="res\03_SpinButtonDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\01_ImageList.ico">
+    <Image Include="res\03_SpinButton.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\bitmap1.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

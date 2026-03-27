@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{411F3EAA-79CB-DDC8-0D70-5B85BACE3B46}</ProjectGuid>
+    <ProjectGuid>{37AA7556-AAB7-1907-97F4-66567D884D9D}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My02MDITest</RootNamespace>
+    <RootNamespace>My02TabCtrl</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,12 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="02_MDITest.h" />
-    <ClInclude Include="02_MDITestDoc.h" />
-    <ClInclude Include="02_MDITestView.h" />
-    <ClInclude Include="CCircleDoc.h" />
-    <ClInclude Include="CCircleView.h" />
-    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="02_TabCtrl.h" />
+    <ClInclude Include="02_TabCtrlDoc.h" />
+    <ClInclude Include="02_TabCtrlView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -196,12 +193,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02_MDITest.cpp" />
-    <ClCompile Include="02_MDITestDoc.cpp" />
-    <ClCompile Include="02_MDITestView.cpp" />
-    <ClCompile Include="CCircleDoc.cpp" />
-    <ClCompile Include="CCircleView.cpp" />
-    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="02_TabCtrl.cpp" />
+    <ClCompile Include="02_TabCtrlDoc.cpp" />
+    <ClCompile Include="02_TabCtrlView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -211,20 +205,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="02_MDITest.reg" />
+    <ResourceCompile Include="My02TabCtrl.rc" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="README.md">
       <SubType>
       </SubType>
     </None>
-    <None Include="res\My02MDITest.rc2" />
+    <None Include="res\My02TabCtrl.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My02MDITest.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\02_MDITest.ico" />
-    <Image Include="res\02_MDITestDoc.ico" />
-    <Image Include="res\icon1.ico" />
+    <Image Include="res\02_TabCtrl.ico" />
+    <Image Include="res\02_TabCtrlDoc.ico" />
+    <Image Include="res\bitmap1.bmp" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
