@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{9E4F4F69-D789-327E-5F00-898D33D2C78B}</ProjectGuid>
+    <ProjectGuid>{25CA2BA1-014D-3179-B399-527F7E24F52E}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My04Progress</RootNamespace>
+    <RootNamespace>My02TreeViewTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,9 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="04_Progress.h" />
-    <ClInclude Include="04_ProgressDoc.h" />
-    <ClInclude Include="04_ProgressView.h" />
+    <ClInclude Include="02_TreeViewTest.h" />
+    <ClInclude Include="02_TreeViewTestDoc.h" />
+    <ClInclude Include="02_TreeViewTestView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -193,9 +193,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_Progress.cpp" />
-    <ClCompile Include="04_ProgressDoc.cpp" />
-    <ClCompile Include="04_ProgressView.cpp" />
+    <ClCompile Include="02_TreeViewTest.cpp" />
+    <ClCompile Include="02_TreeViewTestDoc.cpp" />
+    <ClCompile Include="02_TreeViewTestView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -205,18 +205,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My04Progress.rc" />
+    <ResourceCompile Include="My02TreeViewTest.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md">
-      <SubType>
-      </SubType>
-    </None>
-    <None Include="res\My04Progress.rc2" />
+    <None Include="res\My02TreeViewTest.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\04_Progress.ico" />
-    <Image Include="res\04_ProgressDoc.ico" />
+    <Image Include="res\02_TreeViewTest.ico" />
+    <Image Include="res\02_TreeViewTestDoc.ico" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\icon1.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

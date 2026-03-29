@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="04_Progress.h">
+    <ClInclude Include="01_ListViewTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_ProgressDoc.h">
+    <ClInclude Include="01_ListViewTestDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_ProgressView.h">
+    <ClInclude Include="01_ListViewTestView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -41,16 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_Progress.cpp">
+    <ClCompile Include="01_ListViewTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_ProgressDoc.cpp">
+    <ClCompile Include="01_ListViewTestDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_ProgressView.cpp">
+    <ClCompile Include="01_ListViewTestView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -58,24 +58,27 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My04Progress.rc">
+    <ResourceCompile Include="My01ListViewTest.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My04Progress.rc2">
+    <None Include="res\My01ListViewTest.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="README.md" />
+    <None Include="READMEmd.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\04_ProgressDoc.ico">
+    <Image Include="res\01_ListViewTestDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\04_Progress.ico">
+    <Image Include="res\01_ListViewTest.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
