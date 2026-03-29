@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{B208D4A1-D1A1-90CD-A13E-C9DBF0056744}</ProjectGuid>
+    <ProjectGuid>{6121BAA4-E14D-7A90-1DF1-8C0AB5EC249D}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My01ListViewTest</RootNamespace>
+    <RootNamespace>My03ScrollViewTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,9 +183,9 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="01_ListViewTest.h" />
-    <ClInclude Include="01_ListViewTestDoc.h" />
-    <ClInclude Include="01_ListViewTestView.h" />
+    <ClInclude Include="03_ScrollViewTest.h" />
+    <ClInclude Include="03_ScrollViewTestDoc.h" />
+    <ClInclude Include="03_ScrollViewTestView.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -193,9 +193,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_ListViewTest.cpp" />
-    <ClCompile Include="01_ListViewTestDoc.cpp" />
-    <ClCompile Include="01_ListViewTestView.cpp" />
+    <ClCompile Include="03_ScrollViewTest.cpp" />
+    <ClCompile Include="03_ScrollViewTestDoc.cpp" />
+    <ClCompile Include="03_ScrollViewTestView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -205,19 +205,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My01ListViewTest.rc" />
+    <ResourceCompile Include="My03ScrollViewTest.rc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
       <SubType>
       </SubType>
     </None>
-    <None Include="res\My01ListViewTest.rc2" />
+    <None Include="res\My03ScrollViewTest.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\01_ListViewTest.ico" />
-    <Image Include="res\01_ListViewTestDoc.ico" />
-    <Image Include="res\icon1.ico" />
+    <Image Include="res\03_ScrollViewTest.ico" />
+    <Image Include="res\03_ScrollViewTestDoc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01_ListViewTest.h">
+    <ClInclude Include="03_ScrollViewTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="01_ListViewTestDoc.h">
+    <ClInclude Include="03_ScrollViewTestDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="01_ListViewTestView.h">
+    <ClInclude Include="03_ScrollViewTestView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -41,16 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_ListViewTest.cpp">
+    <ClCompile Include="03_ScrollViewTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01_ListViewTestDoc.cpp">
+    <ClCompile Include="03_ScrollViewTestDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="01_ListViewTestView.cpp">
+    <ClCompile Include="03_ScrollViewTestView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -58,27 +58,24 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My01ListViewTest.rc">
+    <ResourceCompile Include="My03ScrollViewTest.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My01ListViewTest.rc2">
+    <None Include="res\My03ScrollViewTest.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\01_ListViewTestDoc.ico">
+    <Image Include="res\03_ScrollViewTestDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\01_ListViewTest.ico">
+    <Image Include="res\03_ScrollViewTest.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="res\icon1.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
