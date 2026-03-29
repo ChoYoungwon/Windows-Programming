@@ -1,4 +1,4 @@
-﻿!(실행 화면)[../../images/ListViewTest.png]
+﻿![실행 화면](../../images/ListViewTest.png)
 
 ### 코드 목적
 리스트 뷰 활용하기

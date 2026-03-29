@@ -208,6 +208,10 @@
     <ResourceCompile Include="My02TreeViewTest.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="res\My02TreeViewTest.rc2" />
   </ItemGroup>
   <ItemGroup>
