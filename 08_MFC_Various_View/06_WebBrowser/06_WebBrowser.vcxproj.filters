@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="04_OptimizeScroll.h">
+    <ClInclude Include="06_WebBrowser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_OptimizeScrollDoc.h">
+    <ClInclude Include="06_WebBrowserDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_OptimizeScrollView.h">
+    <ClInclude Include="06_WebBrowserView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -39,40 +39,46 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CMyDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_OptimizeScroll.cpp">
+    <ClCompile Include="06_WebBrowser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_OptimizeScrollDoc.cpp">
+    <ClCompile Include="06_WebBrowserDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_OptimizeScrollView.cpp">
+    <ClCompile Include="06_WebBrowserView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CMyDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My04OptimizeScroll.rc">
+    <ResourceCompile Include="My06WebBrowser.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My04OptimizeScroll.rc2">
+    <None Include="res\My06WebBrowser.rc2">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\04_OptimizeScrollDoc.ico">
+    <Image Include="res\06_WebBrowserDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\04_OptimizeScroll.ico">
+    <Image Include="res\06_WebBrowser.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="04_OptimizeScroll.h">
+    <ClInclude Include="05_HtmlViewTest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -27,10 +27,10 @@
     <ClInclude Include="MainFrm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_OptimizeScrollDoc.h">
+    <ClInclude Include="05_HtmlViewTestDoc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="04_OptimizeScrollView.h">
+    <ClInclude Include="05_HtmlViewTestView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -41,16 +41,16 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_OptimizeScroll.cpp">
+    <ClCompile Include="05_HtmlViewTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_OptimizeScrollDoc.cpp">
+    <ClCompile Include="05_HtmlViewTestDoc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="04_OptimizeScrollView.cpp">
+    <ClCompile Include="05_HtmlViewTestView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -58,21 +58,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My04OptimizeScroll.rc">
+    <ResourceCompile Include="My05HtmlViewTest.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\My04OptimizeScroll.rc2">
+    <None Include="res\My05HtmlViewTest.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\04_OptimizeScrollDoc.ico">
+    <Image Include="res\05_HtmlViewTestDoc.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="res\04_OptimizeScroll.ico">
+    <Image Include="res\05_HtmlViewTest.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\Toolbar.bmp">

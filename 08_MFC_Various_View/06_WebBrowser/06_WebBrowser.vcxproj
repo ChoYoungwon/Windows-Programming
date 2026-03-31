@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{79ACB7B1-236F-B921-1319-64E7B2C4182C}</ProjectGuid>
+    <ProjectGuid>{EB83C689-883E-EC18-4C1F-69E4D137B304}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>My04OptimizeScroll</RootNamespace>
+    <RootNamespace>My06WebBrowser</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -183,9 +183,10 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="04_OptimizeScroll.h" />
-    <ClInclude Include="04_OptimizeScrollDoc.h" />
-    <ClInclude Include="04_OptimizeScrollView.h" />
+    <ClInclude Include="06_WebBrowser.h" />
+    <ClInclude Include="06_WebBrowserDoc.h" />
+    <ClInclude Include="06_WebBrowserView.h" />
+    <ClInclude Include="CMyDialog.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
@@ -193,9 +194,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="04_OptimizeScroll.cpp" />
-    <ClCompile Include="04_OptimizeScrollDoc.cpp" />
-    <ClCompile Include="04_OptimizeScrollView.cpp" />
+    <ClCompile Include="06_WebBrowser.cpp" />
+    <ClCompile Include="06_WebBrowserDoc.cpp" />
+    <ClCompile Include="06_WebBrowserView.cpp" />
+    <ClCompile Include="CMyDialog.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -205,18 +207,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="My04OptimizeScroll.rc" />
+    <ResourceCompile Include="My06WebBrowser.rc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
       <SubType>
       </SubType>
     </None>
-    <None Include="res\My04OptimizeScroll.rc2" />
+    <None Include="res\My06WebBrowser.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\04_OptimizeScroll.ico" />
-    <Image Include="res\04_OptimizeScrollDoc.ico" />
+    <Image Include="res\06_WebBrowser.ico" />
+    <Image Include="res\06_WebBrowserDoc.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
