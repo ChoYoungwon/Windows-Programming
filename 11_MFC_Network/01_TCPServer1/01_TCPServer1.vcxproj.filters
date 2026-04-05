@@ -24,7 +24,7 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="01_ODBC1.h">
+    <ClInclude Include="01_TCPServer1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
@@ -32,7 +32,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_ODBC1.cpp">
+    <ClCompile Include="01_TCPServer1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -40,11 +40,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="01_ODBC1.rc">
+    <ResourceCompile Include="01_TCPServer1.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
   </ItemGroup>
 </Project>
